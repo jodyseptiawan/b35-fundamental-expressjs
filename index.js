@@ -9,6 +9,11 @@ const port = 5000
 
 app.use(express.json())
 
+
+app.get('/',(req,res)=>{
+    res.send("halaman utama")
+})
+
 // Add endpoint grouping and router
 app.use('/api/v1/', router)
 
