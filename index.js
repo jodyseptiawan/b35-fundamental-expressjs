@@ -10,7 +10,7 @@ const port = 5000
 //create the homepage route
 app.get('/', (req, res) => {
     //res means, response, and it send string "Hello Express!" to the API
-    res.send('Hello Express!')
+    res.send('Hello Batch 35')
 })    
 
 //when this nodejs app executed, it will listen to defined port
