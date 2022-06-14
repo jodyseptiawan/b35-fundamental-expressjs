@@ -16,6 +16,7 @@ const {
   getUser,
   addUsers,
   updateUser,
+  deleteUser
 } = require("../controllers/user");
 
 // Route
@@ -29,6 +30,7 @@ router.post("/user", addUsers);
 router.get("/users", getUsers);
 router.get("/user/:id", getUser);
 router.patch("/user/:id", updateUser);
+router.delete("/user/:id", deleteUser);
 // Create Route for delete user here ...
 
 module.exports = router;
